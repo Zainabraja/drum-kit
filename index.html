@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Drum Kit</title>
+</head>
+
+<body>
+    <div class="head">
+        <h1>YOUR VIRTUAL DRUM-KIT</h1>
+        <!-- <h2>Enjoy!</h2> -->
+    </div>
+    <div class="parts">
+        <div class="drum ride" onclick="playSound('ride')">
+            <img src="images/ride.png" alt="">
+            <div>Ride Cymbal</div>
+            <button>A</button>
+        </div>
+
+        <div class="drum floor" onclick="playSound('floor')">
+            <img src="images/floor-tom.png" alt="">
+            <div>Floor Tom</div>
+            <button>S</button>
+        </div>
+        <div class="drum tomtom" onclick="playSound('tomtom')">
+            <img src="images/tom-tom.png" alt="">
+            <div>Tom-Tom</div>
+            <button>D</button>
+        </div>
+
+        <div class="drum bass" onclick="playSound('bass')">
+            <img src="images/bass-drum.png" alt="">
+            <div>Bass Drum</div>
+            <button>F</button>
+        </div>
+        <div class="drum snare" onclick="playSound('snare')">
+            <img src="images/snare-drum.png" alt="">
+            <div>Snare Drum</div>
+            <button>J</button>
+        </div>
+
+        <div class="drum hihat" onclick="playSound('hihat')">
+            <img src="images/hi-hat.jfif" alt="">
+            <div>Hi-Hat</div>
+            <button>K</button>
+        </div>
+        <div class="drum crash" onclick="playSound('crash')">
+            <img src="images/crash.png" alt="">
+            <div>Crash Cymbal</div>
+            <button>L</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="keyboard.js"></script>
+</body>
+
+</html>
